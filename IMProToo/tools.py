@@ -81,7 +81,7 @@ def readQualityFile(inputFile):
     try:
       #check for comments
       if fields[0][0:1] == '#':
-        print 'comment', ' '.join(fields)
+        print( 'comment', ' '.join(fields))
         continue
       # does the line hav its own timestamp?
       if belongsToOldDate == 1:
